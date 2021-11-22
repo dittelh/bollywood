@@ -1,0 +1,161 @@
+@import url("../style.css");
+#myBlur{
+    /* background-image: url("../assets/images/goldbackground.png"); */
+    background: url("../assets/images/goldbackground.png") no-repeat center center;
+    background-size: cover;
+    object-fit: fill;
+    height: auto;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+#textContainer{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 5%;
+    background-color: #EBE2BB;
+    border-radius: 25px;
+    box-shadow: -15px -15px #CA0B7A;
+}
+
+h1{
+    font-family: luminari;
+    color: #165453;
+    font-size: 40px;
+    margin:0;
+}
+
+.holdtext{
+    font-family: minionregular;
+    color: #64023B;
+    font-size: 18px;
+}
+
+#småcontainer{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 15%;
+    margin-bottom: 10%;
+}
+
+#billeddiv1{
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px 25px 25px 25px;
+    box-shadow: -15px -15px #64023B;
+    background-color: #EBE2BB;
+    text-align: center;
+    margin-bottom: 5%;
+    width: 40vw;
+    height: 25vh;
+}
+
+#billeddiv2{
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px 25px 25px 25px;
+    box-shadow: 15px -15px #64023B;
+    background-color: #EBE2BB;
+    text-align: center;
+    margin-bottom: 5%;
+    width: 40vw;
+    height: 25vh;
+    
+}
+
+.småbilleder{
+    border-radius: 25px 25px 0 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    object-fit: cover;
+    height: 150px;
+    width: 40vw;
+    object-position: 30% 15%;
+}
+
+#billeddiv3{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;    
+    border-radius: 25px 25px 25px 25px;
+    box-shadow: -15px 15px #64023B;
+    background-color: #EBE2BB;
+    text-align: center;
+    width: 80vw;
+    height: 40vh;
+    margin-bottom: 20%;
+    
+}
+
+#stortbillede{
+    display: flex;
+    border-radius: 25px 25px 0 0;
+    width: 80vw;
+    height: 40vh;
+    object-fit: cover;
+    
+
+}
+
+.links{
+    text-decoration: none;
+    padding: 1rem 0 1rem 0;
+    color: #CA0B7A;   
+    font-size: 100%;
+    font-family: minionprobolditalic;
+}
+
+@media screen and (min-width: 992px) {
+    #myBlur{
+        background: url("../assets/images/golddesktop.png") repeat center center;
+        object-fit: cover;
+        width: auto;
+        object-position: 100% 100%;
+    }
+
+    #textContainer{
+        margin-left: 264px;
+        margin-top: 64px;
+        width: 50%;
+        padding: 2%;
+    } 
+    #textContainer h1{
+        font-size: 300%;
+    }    
+    #småcontainer{
+        margin-top: -5%;
+        margin-bottom: 0.5%;
+    }
+    #billeddiv1{
+        width: 25%;
+        height: 200px;
+    }
+    #billeddiv2{
+        width: 25%;
+        height: 200px;   
+    }
+    .småbilleder{
+        height: 150px;
+        width: 100%;
+    }
+    #billeddiv3{
+        margin-top: -2%;
+        margin-left: 264px;
+        margin-bottom: 3.5%;
+        width: 52.4%;
+        height: 200px;
+    }
+    #stortbillede{
+        width: 100%;
+        height: 150px;
+    }
+    .links{
+        padding: 0.5rem 0 0.5rem 0;
+        font-size: 150%;
+    }
+}

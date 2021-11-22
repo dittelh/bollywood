@@ -1,0 +1,179 @@
+@font-face {
+    font-family: luminari;
+    src: url("assets/fonts/Luminari-Regular.ttf");
+}
+@font-face {
+    font-family: minionprobolditalic;
+    src: url("assets/fonts/MinionPro-BoldIt.otf");
+}
+@font-face {
+    font-family: minionregular;
+    src: url("assets/fonts/MinionPro-Regular.otf");
+}
+
+body{
+    margin: 0%;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Her starter header + burger */
+.topnav{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    background-color: #165453;
+    z-index: 1;
+}
+
+.flexnav{
+    display: flex;
+    justify-content: space-between;
+}
+  
+#myLinks{
+    display: none;
+    background-color: #EBE2BB;
+    text-decoration: none;
+    flex-direction: column;  
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+#myLinks a{
+    color: #CA0B7A;
+    font-size: 35px;
+    margin-left: 10%;
+    padding-top: 3%;
+}
+
+hr{
+    width: 80%;
+    border-top: 3px solid #64023B;
+}
+
+.burger{
+    color: #EBE2BB;
+    font-size: 3rem;
+}
+
+
+#logo{
+    width: 150px;
+}
+
+.topnav a{
+    color: black;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+}
+
+
+/* Mediea queres, for at få fjernet burgeren skal den styles med display: none;  */
+/* myLinks skal styles med display: flex; */
+/* lave body til grid, så kan header og footer være i column 1 */
+
+
+/* Her starter footeren */
+#footer{
+    background-color: #165453;
+    color: #3EBAB8;
+    display: flex;
+    justify-content: space-between;
+    font-family: minionregular;
+}
+
+#infofoot{
+    margin: 3%;
+}
+
+.pfoot{
+    margin: 5%;
+}
+
+#SoMeDiv{
+    display: flex;
+    flex-direction: column;
+    margin: 3%;
+}
+#SoMeIkoner{
+    margin: 0.5rem;
+}
+
+.ikoner{
+    width: 3rem;
+}
+
+#copyDiv{
+display: flex;
+}
+
+.copyikon{
+    width: 1rem;
+    height: 1rem;
+    margin-top: 1rem;
+}
+
+@media screen and (min-width: 992px){
+    body{
+        display: grid;
+        grid-template-columns: 318px 0px auto;
+        grid-template-rows: auto auto auto 10px;
+        /* background-image: url("assets/images/golddesktop.png");
+        background-repeat: repeat;
+        background-size: fill; */
+        background-color: #42ccca;
+    }
+
+    #logo{
+        width: 400px;
+        display: absolute;
+    }
+
+    .grid1{
+        grid-row: 1/4;
+        background-color: #165453;
+        grid-column: 1/3;
+    }
+
+    #footer{
+        grid-row: 4;
+    }
+
+    #myBlur{
+        grid-row: 1/4;
+    }
+
+    /* Bliver muligvis overskrevet af index.ccs, derfor important */
+    .icon{
+        display: none !important;
+    }
+
+    #myLinks{
+        display: flex;
+        background-color: #165453;
+        position: sticky;
+        top: 0;
+    }
+
+    #myLinks a{
+        color: #3EBAB8;
+        font-size: 20px;
+    }
+
+    hr{
+        width: 80%;
+        border-top: 2px solid #EBE2BB;
+    }
+
+    #infofoot, #SoMeDiv{
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+    }
+
+}

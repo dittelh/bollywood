@@ -1,0 +1,193 @@
+@import url("style.css");
+#myBody{
+    background: url("assets/images/goldbackground.png") no-repeat center center;
+    background-size: cover;
+    object-fit: fill;
+    height: auto;
+}
+
+#topforside{
+    margin: 0;
+    position: relative;
+    box-shadow: -15px 50px #CA0B7A;
+    border-radius: 25px;
+    line-height:0;
+}
+
+#forsidebillede{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 0px;
+}
+
+#holdene{
+    text-decoration: none;
+    color: #EBE2BB;
+    text-align: right;
+    display: block;
+    position: absolute;
+    bottom: -25px;
+    left: 5px;
+    font-family: minionprobolditalic;
+    font-size: 30px;
+}
+
+#linkscontainer{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 25%;
+    margin-bottom: 20%;
+}
+
+.forsidebilleder{
+    object-fit: cover;
+    border-radius: 25px 25px 0 0;
+    width: 100%;
+    height: 60%;
+}
+
+.links{
+    padding: 1rem 0 1rem 0;
+    color: #CA0B7A;   
+    font-size: 150%;
+    font-family: minionprobolditalic;
+}
+
+#billeddiv1{
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px 25px 25px 25px;
+    box-shadow: -15px -15px #64023B;
+    background-color: #EBE2BB;
+    text-align: center;
+    margin-bottom: 5%;
+    width: 40vw;
+    height: 25vh;
+}
+
+#billeddiv2{
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px 25px 25px 25px;
+    box-shadow: 15px -15px #64023B;
+    background-color: #EBE2BB;
+    text-align: center;
+    margin-bottom: 5%;
+    width: 40vw;
+    height: 25vh;
+}
+
+#billeddiv3{
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px 25px 25px 25px;
+    box-shadow: -15px 15px #64023B;
+    background-color: #EBE2BB;
+    text-align: center;
+    margin-bottom: 5%;
+    width: 40vw;
+    height: 25vh;
+}
+
+#billeddiv4{
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px 25px 25px 25px;
+    box-shadow: 15px 15px #64023B;
+    background-color: #EBE2BB;
+    text-align: center;
+    margin-bottom: 5%;
+    width: 40vw;
+    height: 25vh;
+}
+
+#billeddiv0{
+    display: none;
+}
+
+
+@media screen and (min-width: 992px){
+    #myBlur{
+        background: url("assets/images/golddesktop.png") repeat center center;
+        object-fit: cover;
+        width: auto;
+        object-position: 100% 100%;
+    }
+
+    #topforside{
+        box-shadow: none;
+    }
+
+    #forsidebillede{
+        object-fit: cover;
+        height: 400px;
+        object-position: 100% 15%;
+    }
+
+    #linkscontainer{
+        display: flex;
+        margin: 0;
+    }
+
+    .forsidebilleder{
+        object-fit: cover;
+        border-radius: 25px 25px 0 0;
+        width: 100%;
+        height: 60%;
+    }
+
+    #billeddiv1{
+        display: flex;
+        flex-direction: column;
+        box-shadow: -15px -15px #64023B;
+        margin-top: 10%;
+        width: 12vw;
+        height: 25vh;
+    }
+    
+    #billeddiv2{
+        display: flex;
+        flex-direction: column;
+        box-shadow: -15px -15px #64023B;
+        margin-top: 10%;
+        width: 12vw;
+        height: 25vh;
+    }
+    
+    #billeddiv3{
+        display: flex;
+        flex-direction: column;
+        box-shadow: -15px -15px #64023B;
+        margin-top: 10%;
+        width: 12vw;
+        height: 25vh;
+    }
+    
+    #billeddiv4{
+        display: flex;
+        flex-direction: column;
+        box-shadow: -15px -15px #64023B;
+        margin-top: 10%;
+        width: 12vw;
+        height: 25vh;
+    }
+
+    #billeddiv0{
+        display: flex;
+        flex-direction: column;
+        border-radius: 25px;
+        box-shadow: -15px -15px #64023B;
+        background-color: #EBE2BB;
+        text-align: center;
+        margin-bottom: 5%;
+        margin-top: 10%;
+        width: 12vw;
+        height: 25vh;
+    }
+
+    #holdene{
+        display: none;
+    }
+}

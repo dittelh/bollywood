@@ -1,0 +1,206 @@
+@import url("../style.css");
+
+#myBlur{
+    /* background-image: url("../assets/images/goldbackground.png"); */
+    background: url("../assets/images/goldbackground.png") no-repeat center center;
+    background-size: cover;
+    object-fit: fill;
+    height: auto;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+
+#textContainer{
+    margin-left: 10%;
+    margin-right: 10%;
+    /* margin-top: 10%; */
+    margin-bottom: 10%;
+    padding: 5%;
+    background-color: #EBE2BB;
+    border-radius: 25px;
+    box-shadow: -15px -15px #CA0B7A;
+}
+
+h1{
+    font-family: luminari;
+    color: #165453;
+    font-size: 40px;
+    margin:0;
+}
+
+.holdtext{
+    font-family: minionregular;
+    color: #64023B;
+    font-size: 18px;
+}
+
+.containerHøjre{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10%;
+
+
+}
+
+.containerVenstre{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-top: 10%;
+}
+
+.billederHøjre{
+    border-radius: 25px 25px 25px 25px;
+    box-shadow: -15px -15px #64023B;
+    object-fit: cover;
+    height: 150px;
+    width: 105px;
+    object-position: 30% 15%;
+}
+
+.billederVenstre{
+    border-radius: 25px 25px 25px 25px;
+    box-shadow: -15px -15px #64023B;
+    object-fit: cover;
+    height: 150px;
+    width: 105px;
+    object-position: 60% 15%;
+}
+
+.textcontentHøjre{
+    width: 100vw;
+    overflow: visible;
+    background-color: #EBE2BB;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: -10%;
+    height: 125px;
+    padding-right: 15%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+}
+
+.textcontentVenstre{
+    width: 100vw;
+    overflow: visible;
+    background-color: #EBE2BB;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 125px;
+    margin-left: -10%;
+    padding-left: 15%;
+    padding-bottom: 5%;
+}
+
+.containerHøjre p{
+    font-family: minionregular;
+    color: #64023B;
+}
+
+.containerVenstre p{
+    font-family: minionregular;
+    color: #64023B;
+}
+
+h2{
+    font-family: minionprobolditalic;
+    color: #CA0B7A;
+}
+
+
+@media screen and (min-width: 992px){
+    #myBlur{
+        background: url("../assets/images/golddesktop.png") repeat center center;
+        object-fit: cover;
+        width: auto;
+        object-position: 100% 100%;
+    }
+    
+    #textContainer{
+        background-color: #EBE2BB;
+        border-radius: 25px;
+        box-shadow: -15px -15px #CA0B7A;
+        width: 50%;
+        padding: 2%;
+        margin-top: 64px;
+        margin-left: 264px;
+        margin-bottom: 5%;
+    }
+
+    .holdtext{
+        font-family: minionregular;
+        color: #64023B;
+        font-size: 20px;
+        text-align: justify;
+    }
+
+    #textContainer h1{
+        font-size: 300%;
+    }
+
+    #eventcontainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;    
+    }
+
+    .containerHøjre{
+        margin-top: 2%;
+        margin-bottom: 2%;
+        display: flex;
+        align-items: center;
+    }
+
+    .containerVenstre{
+        margin-top: 2%;
+        margin-bottom: 2%;
+        display: flex;
+        align-items: center;
+    }
+
+    .textcontentHøjre{
+        width: 30vw;
+        border-radius: 25px;
+    }
+
+    .textcontentVenstre{
+        border-radius: 25px;
+        width: 30vw;
+
+    }
+
+    .billederHøjre{
+        object-fit: cover;
+        height: 250px;
+        width: 200px;
+        object-position: 60% 15%;
+
+    }
+
+    .billederVenstre{
+        object-fit: cover;
+        height: 250px;
+        width: 200px;
+        object-position: 60% 15%;
+    }
+
+    h2{
+        font-size: 250%;
+        margin-bottom: 0;
+        margin-top: 5%;
+    }
+
+    .containerHøjre p{
+        font-family: minionregular;
+        color: #64023B;
+        font-size: 20px;
+    }
+
+    .containerVenstre p{
+        font-family: minionregular;
+        color: #64023B;
+        font-size: 20px;
+    }
+}
+

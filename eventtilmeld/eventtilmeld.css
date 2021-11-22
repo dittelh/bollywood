@@ -1,0 +1,96 @@
+@import url(../style.css);
+#myBlur{
+    /* background-image: url("../assets/images/goldbackground.png"); */
+    background: url("../assets/images/goldbackground.png") no-repeat center center;
+    background-size: cover;
+    object-fit: fill;
+    height: auto;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+#forsidebillede {
+    width: 100%;
+}
+
+#textContainer1 {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #EBE2BB;
+    border-radius: 25px;
+    box-shadow: -15px -15px #CA0B7A;
+
+}
+
+#textContainer2 {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    background-color: #EBE2BB;
+    border-radius: 25px;
+    box-shadow: 15px 15px #64023B;
+    height: 78px;
+
+}
+
+#textContainer2 h2 {
+    text-align: center;
+    font-family: minionprobolditalic;
+    color:#CA0B7A;
+}
+
+#textContainer1 h1 {
+    font-family: luminari;
+    color: #165453;
+    font-size: 50px;
+    margin: 0;
+}
+
+#textContainer1 p {
+    font-family: minionregular;
+    color: #64023B;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#textContainer2 p  {
+    text-align: center;
+    padding-top: 0;
+    font-family: minionregular;
+    color: #64023B;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#textContainer3 {
+    margin-left: 35%;
+    margin-right: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    background-color: #EBE2BB;
+    border-radius: 25px;
+    box-shadow: 10px 10px #64023B;
+    height: 20px;
+    width: 70px;
+    
+
+}
+
+#textContainer3 h1 {
+    text-align: center;
+    font-family: minionprobolditalic;
+    color:#CA0B7A; 
+}

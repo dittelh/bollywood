@@ -1,0 +1,293 @@
+@import url("../style.css");
+
+#myBlur{
+    /* background-image: url("../assets/images/goldbackground.png"); */
+    background: url("../assets/images/goldbackground.png") no-repeat center center;
+    background-size: cover;
+    object-fit: fill;
+    height: auto;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+#textContainer{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    padding: 5%;
+    background-color: #EBE2BB;
+    border-radius: 25px;
+    box-shadow: -15px -15px #CA0B7A;
+}
+
+h1{
+    font-family: luminari;
+    color: #165453;
+    font-size: 50px;
+    margin:0;
+}
+
+.holdtext{
+    font-family: minionregular;
+    color: #64023B;
+    font-size: 18px;
+}
+
+#fotocontainer{
+    width: 100%;
+    margin-top: 10%;
+    font-family: minionprobolditalic;
+    font-size: 25px;
+    color: white;
+}
+
+
+.holdbilleder{
+    width: 100vw;
+    height: 20vh;
+    object-fit: cover;
+}
+
+#hold1{
+    box-shadow: -20px -15px #64023B;
+    border-radius: 25px;
+    line-height: 0;
+    margin-top: 10%;
+}
+
+#hold2{
+    box-shadow: 20px 15px #64023B;
+    border-radius: 25px;
+    line-height: 0;
+    margin-top: 10%;
+}
+
+#hold3{
+    box-shadow: -20px -15px #64023B;
+    border-radius: 25px;
+    line-height: 0;
+    margin-top: 20%;
+}
+
+#hold4{
+    box-shadow: 20px 15px #64023B;
+    border-radius: 25px;
+    line-height: 0;
+    margin-top: 10%;
+    margin-bottom: 20%;
+}
+
+#hold5{
+    box-shadow: -20px -15px #64023B;
+    border-radius: 25px;
+    line-height: 0;
+    margin-top: 10%;
+
+}
+
+#hold6{
+    box-shadow: 20px 15px #64023B;
+    border-radius: 25px;
+    line-height: 0;
+    margin-top: 10%;
+    margin-bottom: 20%;
+}
+
+#h31{
+    position: absolute;
+    left: 16px;
+}
+
+#h32{
+    position: absolute;
+    right: 16px;
+}
+
+#h33{
+    position: absolute;
+    left: 16px;
+}
+
+#h34{
+    position: absolute;
+    right: 16px;
+}
+
+#h35{
+    position: absolute;
+    left: 16px;
+}
+
+#h36{
+    position: absolute;
+    right: 16px;
+}
+
+@media screen and (min-width: 992px){  
+    #myBlur{
+        background: url("../assets/images/golddesktop.png") repeat center center;
+        object-fit: cover;
+        width: auto;
+        object-position: 100% 100%;
+    }
+    
+    #textContainer{
+        background-color: #EBE2BB;
+        border-radius: 25px;
+        box-shadow: -15px -15px #CA0B7A;
+        width: 50%;
+        padding: 2%;
+        margin-top: 64px;
+        margin-left: 264px;
+    }
+
+    .holdtext{
+        font-family: minionregular;
+        color: #64023B;
+        font-size: 20px;
+        text-align: justify;
+    }
+
+    #textContainer h1{
+        font-size: 300%;
+    }
+
+    .holdbilleder{
+        /* width: 100%;
+        height: 100%; */
+        object-fit: cover;
+        border-radius: 25px 25px 0 0;
+        width: 40vh;
+        height: 20vh;
+        /* display: flex;
+        flex-wrap: wrap; */
+    }
+
+    #førsterækkehold{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    #andenrækkehold{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    
+    #fotocontainer{
+        display: flex;
+        flex-wrap: wrap;
+        /* width: 35%; */
+        /* margin-top: 5%; */
+        font-family: minionprobolditalic;
+        font-size: 25px;
+        color: white;
+        margin-top: unset;
+    }
+
+
+
+    #hold1{
+        box-shadow: -20px -15px #64023B;
+        border-radius: 25px;
+        line-height: 0;
+        margin-top: 10%;
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: #EBE2BB;
+        
+    }
+    
+    #hold2{
+        box-shadow: -20px -15px #64023B;
+        border-radius: 25px;
+        line-height: 0;
+        margin-top: 10%;
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: #EBE2BB;
+    }
+    
+    #hold3{
+        box-shadow: -20px -15px #64023B;
+        border-radius: 25px;
+        line-height: 0;
+        margin-top: 10%;
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: #EBE2BB;
+    }
+    
+    #hold4{
+        box-shadow: -20px -15px #64023B;
+        border-radius: 25px;
+        line-height: 0;
+        margin-top: 10%;
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: #EBE2BB;
+    }
+    
+    #hold5{
+        box-shadow: -20px -15px #64023B;
+        border-radius: 25px;
+        line-height: 0;
+        margin-top: 10%;
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: #EBE2BB;
+        margin-bottom: 20%;
+    }
+    
+    #hold6{
+        box-shadow: -20px -15px #64023B;
+        border-radius: 25px;
+        line-height: 0;
+        margin-top: 10%;
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: #EBE2BB;
+    }
+
+    #h31{
+        position: unset;
+        text-align: center;
+        color: #64023B;
+    }
+    
+    #h32{
+        position: unset;
+        text-align: center;
+        color: #64023B;
+    }
+    
+    #h33{
+        position: unset;
+        text-align: center;
+        color: #64023B;
+    }
+    
+    #h34{
+        position: unset;
+        text-align: center;
+        color: #64023B;
+    }
+    
+    #h35{
+        position: unset;
+        text-align: center;
+        color: #64023B;
+    }
+    
+    #h36{
+        position: unset;
+        text-align: center;
+        color: #64023B;
+    }
+    
+    
+
+
+}
