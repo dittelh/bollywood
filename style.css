@@ -123,9 +123,6 @@ display: flex;
         display: grid;
         grid-template-columns: 318px 0px auto;
         grid-template-rows: auto auto auto 10px;
-        /* background-image: url("assets/images/golddesktop.png");
-        background-repeat: repeat;
-        background-size: fill; */
         background-color: #42ccca;
     }
 
